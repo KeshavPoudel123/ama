@@ -21,6 +21,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Highlight.js for syntax highlighting -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+    <link rel="stylesheet" href="../../assets/css/floating-home-button.css">
 
 </head>
 <body>
@@ -63,6 +64,11 @@
                 <ul id="notes-list">
                     <!-- Notes will be populated here -->
                 </ul>
+            </div>
+
+            <div class="sidebar-footer">
+                <!-- Home button removed to avoid duplication with floating home button -->
+                <!-- Trash button removed as requested -->
             </div>
 
         </aside>
@@ -190,6 +196,13 @@
     </div>
 
 
+    <!-- Floating Home Button -->
+    <a href="../../index.html" class="floating-home-btn">
+        <span class="material-icons">home</span>
+        <span>Home</span>
+    </a>
+
+
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
@@ -222,15 +235,14 @@
         }
     </script>
 
-    <!-- Common JavaScript -->
-    <script src="../../assets/js/main.js"></script>
-
-    <!-- Common JavaScript -->
-    <script src="../../assets/js/main.js"></script>
+    <!-- Floating Home Button JavaScript -->
+    <script src="../../assets/js/floating-home-button.js"></script>
 
 
     <!-- Common JavaScript -->
     <script src="../../assets/js/main.js"></script>
+
+
 </body>
 </html>
 
