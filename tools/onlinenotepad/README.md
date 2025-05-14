@@ -1,4 +1,4 @@
-# ScribbleSpaceY
+# SwiftNote
 
 A modern, feature-rich online notepad web application that works entirely in your browser.
 
@@ -46,11 +46,6 @@ ScribbleSpaceY is built using:
 - Marked.js for Markdown parsing
 - Highlight.js for syntax highlighting
 
-## Getting Started
-
-1. Clone this repository
-2. Open `index.html` in your browser
-3. Start creating notes!
 
 ## Keyboard Shortcuts
 
@@ -74,6 +69,4 @@ ScribbleSpaceY works with all modern browsers:
 
 This project is open source and available under the MIT License.
 
-## Credits
 
-Developed with ❤️ by Keshav Poudel
